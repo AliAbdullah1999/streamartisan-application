@@ -1,6 +1,6 @@
-// Main JavaScript file for StreamArtisan website
+// Main JavaScript file for SoftEDigi website
 
-// Enhanced StreamArtisan JavaScript with Advanced Interactions
+// Enhanced SoftEDigi JavaScript with Advanced Interactions
 
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all features
@@ -16,8 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initFormEnhancements();
     initNavbarEffects();
     initSmoothScrolling();
-    init
-document.addEventListener('DOMContentLoaded', function() {
+    
     // Smooth scrolling for anchor links
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
@@ -89,3 +88,52 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+// Initialize all advanced features
+function initScrollAnimations() {
+    // Implementation for scroll animations
+}
+
+function initCustomCursor() {
+    // Implementation for custom cursor
+}
+
+function initParticleBackground() {
+    // Implementation for particle background
+}
+
+function initScrollProgress() {
+    // Implementation for scroll progress
+}
+
+function initFloatingActionButton() {
+    // Implementation for floating action button
+}
+
+function initRippleEffect() {
+    // Implementation for ripple effect
+}
+
+function initLightbox() {
+    // Implementation for lightbox
+}
+
+function initTooltips() {
+    // Implementation for tooltips
+}
+
+function initCounterAnimations() {
+    // Implementation for counter animations
+}
+
+function initFormEnhancements() {
+    // Implementation for form enhancements
+}
+
+function initNavbarEffects() {
+    // Implementation for navbar effects
+}
+
+function initSmoothScrolling() {
+    // Implementation for smooth scrolling
+}
