@@ -42,6 +42,31 @@ app.get('/get-started', (req, res) => {
   res.render('get-started', { title: 'Get Started - StreamArtisan', page: 'get-started' })
 })
 
+// Individual service routes
+app.get('/services/web-development', (req, res) => {
+  res.render('services/web-development', { title: 'Web Development - StreamArtisan', page: 'services' })
+})
+
+app.get('/services/mobile-development', (req, res) => {
+  res.render('services/mobile-development', { title: 'Mobile Development - StreamArtisan', page: 'services' })
+})
+
+app.get('/services/cloud-solutions', (req, res) => {
+  res.render('services/cloud-solutions', { title: 'Cloud Solutions - StreamArtisan', page: 'services' })
+})
+
+app.get('/services/database-design', (req, res) => {
+  res.render('services/database-design', { title: 'Database Design - StreamArtisan', page: 'services' })
+})
+
+app.get('/services/api-development', (req, res) => {
+  res.render('services/api-development', { title: 'API Development - StreamArtisan', page: 'services' })
+})
+
+app.get('/services/security-testing', (req, res) => {
+  res.render('services/security-testing', { title: 'Security & Testing - StreamArtisan', page: 'services' })
+})
+
 // Contact form handler
 app.post('/contact', (req, res) => {
   const { name, email, subject, message } = req.body
